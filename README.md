@@ -1,40 +1,40 @@
 # Python Base Learning Project
 
-Цей репозиторій створений для вивчення основ Python.
+This repository is designed for learning the basics of Python.
 
-## Налаштування середовища
+## Environment Setup
 
-1.  **Створіть віртуальне середовище** (якщо ще не створено):
+1.  **Create a virtual environment** (if not already created):
 
     ```bash
     python3 -m venv .venv
     ```
 
-2.  **Активуйте віртуальне середовище**:
+2.  **Activate the virtual environment**:
 
     ```bash
     source .venv/bin/activate
     ```
 
-3.  **Встановіть залежності**:
+3.  **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-## Запуск
+## Usage
 
-Щоб запустити головний скрипт:
+To run the main script:
 
 ```bash
 python main.py
 ```
 
-## Інструменти розробки
+## Development Tools
 
-У проекті налаштовані наступні інструменти для підтримки якості коду:
+The project is configured with the following tools to ensure code quality:
 
-- **Black**: Автоматичне форматування коду.
-- **Isort**: Сортування імпортів.
-- **Flake8**: Лінтер для перевірки на помилки та стиль.
+- **Black**: Automatic code formatting.
+- **Isort**: Import sorting.
+- **Flake8**: Linter for checking errors and style.
 
-Форматування відбувається автоматично при збереженні файлу у VS Code.
+Formatting is applied automatically when saving a file in VS Code.

@@ -1,5 +1,6 @@
 {
   "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
   "python.formatting.provider": "none",
   "[python]": {
