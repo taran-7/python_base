@@ -5,17 +5,6 @@ import math
 
 
 def calculator(a: float, b: float = 0, operation: str = "+") -> float | str:
-    """
-    Calculator that performs basic mathematical operations.
-
-    Args:
-        a: First number
-        b: Second number (not required for sqrt)
-        operation: Operation (+, -, *, /, %, sqrt)
-
-    Returns:
-        Calculation result or error message
-    """
     match operation:
         case "+":
             return a + b
@@ -28,7 +17,6 @@ def calculator(a: float, b: float = 0, operation: str = "+") -> float | str:
                 return "Error: division by zero"
             return a / b
         case "%":
-            # Percentage: calculates b% of a
             return a * b / 100
         case "sqrt":
             if a < 0:
