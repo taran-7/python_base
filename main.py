@@ -1,21 +1,21 @@
 import sys
 
-from calculator import calculator
+# Створення списку
+fruits = ["яблуко", "банан", "вишня"]
 
+# Доступ до елемента за індексом (0 - перший)
+# print(fruits[0])  # Виведе: яблуко
+print(fruits[2])  # Виведе: вишня
 
-def main():
-    print(f"Hello from Python {sys.version}")
-    print("Project initialized successfully!")
+# Зміна елемента (списки змінні!)
+# fruits[1] = "апельсин"
+fruits[0] = "Манго"
 
+# Додавання нового елемента в кінець
+# fruits.append("груша")
+fruits.append("персик")
+fruits.append("горіхи")
+fruits.append("кавун")
 
-if __name__ == "__main__":
-    main()
-
-    my_list = [1, 2, 3, 4, 5]
-
-    print(calculator(10, 2, "+"))
-    print(calculator(10, 2, "-"))
-    print(calculator(10, 2, "*"))
-    print(calculator(10, 2, "/"))
-    print(calculator(10, 2, "%"))
-    print(calculator(10, 2, "sqrt"))
+print(fruits)
+# Виведе: ['яблуко', 'апельсин', 'вишня', 'груша']
