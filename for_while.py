@@ -19,15 +19,14 @@ while guess != secret:
 
 
 # Напиши свій цикл тут:
-# ...
-# for i in range(-1, 21, 2):
-#     # if i % 2 == 0:
-#     print(f"Парні числа:  {i}")
+for i in range(-1, 21, 2):
+    # if i % 2 == 0:
+    print(f"Парні числа:  {i}")
 
 
-# total = 0
+total = 0
 
-# for i in range(1, 101):
-#     total += i
+for i in range(1, 101):
+    total += i
 
-# print(f"Сума чисел від 1 до 100: {total}")
+print(f"Сума чисел від 1 до 100: {total}")
