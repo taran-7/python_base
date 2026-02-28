@@ -4,13 +4,10 @@
   "editor.formatOnSave": true,
   "python.formatting.provider": "none",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
+      "source.fixAll.ruff": "explicit"
     }
   },
-  "isort.args": ["--profile", "black"],
-  "python.linting.enabled": true,
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": ["--max-line-length=88", "--extend-ignore=E203"]
+  "ruff.enable": true
 }

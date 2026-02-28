@@ -1,6 +1,7 @@
 """
 Calculator module with basic mathematical operations.
 """
+
 import math
 
 
