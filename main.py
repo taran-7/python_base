@@ -11,11 +11,10 @@ def main():
 
     my_list = [1, 2, 3, 4, 5]
 
-print(my_list ==  my_list)
- 
 
-# if __name__ == "__main__":
-#     main()
+
+if __name__ == "__main__":
+    main()
 
 #     my_list = [1, 2, 3, 4, 5]
 
